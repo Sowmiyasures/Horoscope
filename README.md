@@ -2,4 +2,4 @@
 
 
 
-Click to visite website:https://sowmiyasures.github.io/Horoscope/
+Click to visite website:https://github.com/sowmiyasures/Horoscope/setting/pages
