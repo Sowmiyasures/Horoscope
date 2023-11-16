@@ -1,1 +1,1 @@
-# Sowmiyasures.Horoscop
+# Horoscop
