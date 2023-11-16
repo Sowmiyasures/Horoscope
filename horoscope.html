@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get your daily horoscope!" />
+    <title>Pic your zodiacsign</title>
+    <link href="general.css" rel="stylesheet" />
+    <link href="horoscope.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="title-navbar">
+          <h4><a href="index.html">Daily Horoscope</a></h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="formular.html">About</a></li>
+          <li><a href="horoscope.html">Horoscope</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <div class="grid-zodiacsigns">
+            <div class="zodiacsigns">
+              <div class="zodiacrows">
+                <div class="sign-button" data-sign="capricorn">
+                  <div class="capricorn">
+                    <img src="sign_capricornus.png" alt="capricornus" />
+                    <p>Capricorn</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="aquarius">
+                  <div class="aquarius">
+                    <img src="sign_aquarius.png" alt="aquarius" />
+                    <p>Aquarius</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="pisces">
+                  <div class="pisces">
+                    <img src="sign_pisces.png" alt="pisces" />
+                    <p>Pisces</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="aries">
+                  <div class="aries">
+                    <img src="sign_aries.png" alt="aries" />
+                    <p>Aries</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="taurus">
+                  <div class="taurus">
+                    <img src="sign_taurus.png" alt="taurus" />
+                    <p>Taurus</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="gemini">
+                  <div class="gemini">
+                    <img src="sign_gemini.png" alt="gemini" />
+                    <p>Gemini</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="cancer">
+                  <div class="cancer">
+                    <img src="sign_cancer.png" alt="cancer" />
+                    <p>Cancer</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="leo">
+                  <div class="leo">
+                    <img src="sign_leo.png" alt="leo" />
+                    <p>Leo</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="virgo">
+                  <div class="virgo">
+                    <img src="sign_virgo.png" alt="virgo" />
+                    <p>Virgo</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="libra">
+                  <div class="libra">
+                    <img src="sign_libra.png" alt="libra" />
+                    <p>Libra</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="scorpio">
+                  <div class="scorpio">
+                    <img src="sign_scorpio.png" alt="scorpio" />
+                    <p>Scorpio</p>
+                  </div>
+                </div>
+                <div class="sign-button" data-sign="sagittarius">
+                  <div class="sagittarius">
+                    <img src="sign_sagittarius.png" alt="sagittarius" />
+                    <p>Sagittarius</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="result" style="display: none">
+              <h2 class="picked-sign"></h2>
+              <div class="color-wrap">
+                <h4>Color</h4>
+                <div class="color value-item"></div>
+              </div>
+              <div class="compatibility-wrap">
+                <h4>Compatibility</h4>
+                <div class="compatibility value-item"></div>
+              </div>
+              <div class="current-wrap-">
+                <h4>Current date</h4>
+                <div class="current-date value-item"></div>
+              </div>
+              <div class="date-range-wrap">
+                <h4>Date range</h4>
+                <div class="date-range value-item"></div>
+              </div>
+              <div class="description-wrap">
+                <h4>Description</h4>
+                <div class="description value-item"></div>
+              </div>
+              <div class="lucky-number-wrap">
+                <h4>Lucky number</h4>
+                <div class="lucky-number value-item"></div>
+              </div>
+              <div class="lucky-time-wrap">
+                <h4>Lucky time</h4>
+                <div class="lucky-time value-item"></div>
+              </div>
+              <div class="mood-wrap">
+                <h4>Mood</h4>
+                <div class="mood value-item"></div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="footer">
+              <ul class="socialmedia-icons">
+                <li>
+                  <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li>
+                  <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </li>
+                <li>
+                  <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </li>
+                <li>
+                  <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        </section>
+      </article>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="horoscope.js"></script>
+    <script src="general.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #fff2e3;
+}
+
+.grid-zodiacsigns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.zodiacrows {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-left: 40px;
+}
+
+.sign-button {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  max-width: 125px;
+}
+
+h2 {
+  margin: 0 0 15px;
+  text-transform: capitalize;
+}
+
+h4 {
+  margin: 0 0 0px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.value-item {
+  margin-bottom: 15px;
+}
+
+.result {
+  padding: 15px;
+  display: none;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 300px) {
+  .result {
+    margin: 40px;
+  }
+}
